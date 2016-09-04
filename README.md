@@ -26,6 +26,3 @@
 
 [百度](http://www.baidu.com)
 
-### 图片
-
-![qq截图](/resource/pic001.png)
