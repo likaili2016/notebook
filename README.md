@@ -30,7 +30,7 @@ robot framework+Selenium2Library 进行UI自动化
 
 ### UI自动化环境搭建
 
-```robot framework 是用python语言写的一个自动化测试框架 它还具有丰富的第三方库，robot framework 与第三方的配合就可以完成UI API App的自动化测试，详情可以访问robot framework 官网查看：<http://robotframework.org/>```
+```robot framework 是用python语言写的一个自动化测试框架 它还具有丰富的第三方库，robot framework 与第三方的配合就可以完成UI API App的自动化测试，详情可以访问robot framework 官网查看：<http://www.robotframework.org/>```
 
 ### API自动化测试
 
