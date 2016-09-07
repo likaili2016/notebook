@@ -18,16 +18,21 @@ robot framework 是用python语言写的一个自动化测试框架 它还具有
 
 ### 自动化测试环境搭建
 
-由于我是穷人 所以这里只介绍在Windows系统上的安装步骤。
+1.安装 参照安装文档 [https:\/\/www.ibm.com\/developerworks\/cn\/opensource\/os-cn-robot-framework\/](https://www.ibm.com/developerworks/cn/opensource/os-cn-robot-framework/)
 
-1. 安装python： 去python官网下载python安装包 &lt;https:\/\/www.python.org\/downloads\/&gt;  默认可以选择3.2.\* 或者2.7.\*的版本 好多都建议选择2.7.\*的版本 因为它既向下兼容也向上兼容 为啥这么说哩  因为3.2.\*的版本是不兼容低版本的哦 ，其实选择哪个都随便啦 语言嘛  学一学就会啦~~ 安装python很简单 下一步就ok啦 如果要自己定义安装路径一定要记住自己的路径哦；
+    ps：如果安装的是64位的python 要安装 pyw32
 
-2. 安装python包管理工具pip：为啥要安装pip呢 因为之后的安装只需要一个命令就可以搞定啦~~安装pip步骤： 进入命令行，然后把目录切换到python的安装目录下的Script文件夹下，运行 easy\_inatall pip 然后就静静的等待success的出现吧。
+2.创建ride的快捷方式 参照：[http:\/\/www.fx114.net\/cuixiping\/qa-212-149474.aspx](http://www.fx114.net/cuixiping/qa-212-149474.aspx)
 
-3. 安装robot framework：命令行下执行 pip install robotframework 。
-4. 安装 wxPython ：命令行下执行
+3.使用chrome 浏览器安装 chromewebdiver、ie也是安装iewebdirver
+
+
 
 ### 一起写UI自动化
+
+双击ridi的小人图标出现工作页面，
+
+!\[Alt text\]\(\/F:\/李凯丽\/gitbook\/likaili2016\/articles.png\)
 
 ### API自动化测试
 
