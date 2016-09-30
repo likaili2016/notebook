@@ -36,8 +36,6 @@ ps：如果安装的是64位的python 要安装 pyw32
 
 1.建立一个存放脚本的工程，点击file 选择new project 给工程取一个名字并选择parent dictionary（最后建立一个新的文件夹用于存放脚本）新建工程时最好选择dictionary这样方便建立树形结构，使目录结构清晰 并且可以存放多个case suit
 
-
-
 ![](/assets/新建工程.png)
 
 2.建立suit 点击刚刚建立完成的工程右键选择new suit；
@@ -50,21 +48,15 @@ ps：如果安装的是64位的python 要安装 pyw32
 
 ![](/assets/导入.png)
 
-
-
 以上步骤完成就可以开始着手写脚本了，第一个case我们要完成一个百度的过程。
 
 暂定case内容为：打开浏览器，使用百度搜索python，并打开相应的百度百科词条，关闭浏览器。
 
+在开始写case之前要通读一下robot framework的官方文档中的关于 Selenium2Library 的关键字介绍。网址：http:\/\/robotframework.org\/Selenium2Library\/Selenium2Library.html
+
 case已经准备好了，从哪里开始呢 是不是一点头绪都没有？思路是这样的 首先怎么实现自动打开浏览器呢，回到ride的工作区点击F5，打开了一个名叫“search keyword”的对话框 我们要在这里搜索robot framework 封装好的关键字 搜索open，第一个open browser就是我们要找的打开浏览器的关键字，下面就是这个关键字的参数
 
-
-
-
-
 ![](/assets/搜索关键字.png)
-
-
 
 ### API自动化测试
 
