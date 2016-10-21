@@ -58,6 +58,37 @@ case已经准备好了，从哪里开始呢 是不是一点头绪都没有？思
 
 ![](/assets/搜索关键字.png)
 
+case整体的代码如下：
+
+```
+open browser    http://www.baidu.com    chrome
+```
+
+```
+input text      id=kw     robot framework
+```
+
+```
+click button    id=su
+```
+
+```
+close browser
+```
+
+robot framework 截图如下
+
+![](/assets/代码1.png)
+
+代码解释：
+
+1. .Teardown 指程序运行结束后执行的操作（包括正常的case执行结束也包括case执行失败的异常结束），截图中的设置意思是case执行结束后关闭浏览器；
+2. 截图中的蓝色字 代表框架提供的关键字；
+3. 第一句 打开浏览器 输入网址 选择的浏览器是chrome；
+4. 第二句 input text 指向文本框中输入信息（具体请按f5查询用法与解释），id=kw 
+
+
+
 ### API自动化测试
 
 ### 性能测试
